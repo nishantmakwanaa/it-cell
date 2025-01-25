@@ -1,3 +1,6 @@
+def forward_pass(X, weights):
+    return np.dot(X, weights)
+
 def gradient_descent(X, y, weights, learning_rate, iterations):
     for i in range(iterations):
         y_pred = forward_pass(X, weights)
