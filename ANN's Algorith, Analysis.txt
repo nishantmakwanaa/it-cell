@@ -1,0 +1,28 @@
+Backpropagation Algorithm (Algo)
+This is the core algorithm used in ANNs for computing gradients and updating weights based on the error of predictions. It works by propagating errors backward through the network.
+
+Purpose: Minimize the loss function by adjusting weights to reduce prediction errors.
+Focus: Efficiently calculate the gradients of weights to improve the model's performance.
+2. Gradient Descent Optimization (Optimization Technique)
+This is an optimization technique used to minimize the loss function by updating weights in the direction of the negative gradient. There are different variants of gradient descent, such as:
+
+Stochastic Gradient Descent (SGD): Updates weights after each training sample.
+
+Mini-Batch Gradient Descent: Updates weights using small subsets of the data.
+
+Adam Optimizer: A popular optimization algorithm that combines momentum and adaptive learning rates for faster convergence.
+
+Purpose: Speed up training and improve convergence.
+
+Focus: Adjust learning rates and gradients dynamically to stabilize and accelerate training.
+
+3. Dropout Regularization (Regularization Technique)
+This is a regularization technique designed to prevent overfitting by randomly "dropping out" neurons (disabling them) during training. It ensures that the model doesn't rely too heavily on specific neurons and promotes generalization.
+
+Purpose: Prevent overfitting and improve model robustness.
+Focus: Randomly disable a portion of the neurons during training, forcing the network to learn more generalized patterns.
+Summary of Their Roles
+Backpropagation Algorithm: Core mechanism for weight updates.
+Gradient Descent Optimization: Technique to optimize weight updates efficiently.
+Dropout Regularization: Technique to prevent overfitting and ensure generalization.
+Would you like detailed guidance on improving any specific one? Or should I provide a combined approach to analyze and optimize them?
